@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: Mulish;
+}
+body{
+    padding: 20px 100px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.70);
+}
+h1{
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #FFF;
+    padding: 0px;
+    margin: 5px 0px;
+}
+h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #131318;
+}
+h4{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #131318;
+}
+h6{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #131318;
+}
+button{
+    height: 48px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 160px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* header section design */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo>img{
+    width: 50px;
+    height: 46px;
+}
+.logo>h2{
+    font-size: 32px;
+}
+.logo-h1{
+    color: #FF5400;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--Dark-02, #424247);
+}
+nav li{
+    list-style: none;
+}
+.mobile-menu{
+    display: none;
+}
+.list-one{
+    color: #FF5400;
+    font-weight: 700;
+}
+nav span{
+    display: none;
+}
+
+
+/* banner section design */
+.banner-sec{
+    background-image: url('images/banner1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    width: auto;
+    margin-top: 15px;
+}
+.banner p{
+    color: rgb(224, 224, 224);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.banner-shadow{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 16px;
+    height: 500px;
+    width: 1065px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.search{
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.banner-box{
+    background: #FFF;
+    border-radius: 8px;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner-box>input{
+    border: none;
+    width: 80%;
+    font-size: 15px;
+}
+.banner-box>input:focus{
+    outline: none;
+}
+.banner-box button{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #FF5400;
+}
+.search i{
+    color: #626262;
+}
+
+
+
+
+
+
+
