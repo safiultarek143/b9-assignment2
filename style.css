@@ -106,80 +106,159 @@ nav li{
     color: #FF5400;
     font-weight: 700;
 }
-nav span{
-    display: none;
+
+/* banner Section */
+.title-banner-section {
+    font-size: 50px;
+
 }
 
-
-/* banner section design */
-.banner-sec{
-    background-image: url('images/banner1.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: auto;
-    width: auto;
-    margin-top: 15px;
-}
-.banner p{
-    color: rgb(224, 224, 224);
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-.banner-shadow{
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-    border-radius: 16px;
-    height: 500px;
-    width: 1065px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.search{
-    background: rgba(255, 255, 255, 0.30);
-    border-radius: 8px;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    padding: 15px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.banner-box{
-    background: #FFF;
-    border-radius: 8px;
-    height: 50px;
-    width: 160px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.banner-box>input{
-    border: none;
-    width: 80%;
-    font-size: 15px;
-}
-.banner-box>input:focus{
-    outline: none;
-}
-.banner-box button{
-    width: 100%;
-    height: 100%;
-    border-radius: 7px;
-    border: none;
+.text-color {
     color: white;
-    font-size: 15px;
-    font-weight: 600;
-    background-color: #FF5400;
-}
-.search i{
-    color: #626262;
+
 }
 
+.banner-sec {
+    position: relative;
+    height: 500px;
+    width: 90%;
+    margin: 2% 6%;
+    background-image: url(./Images/banner1.png), linear-gradient(rgba(19, 19, 24, 1), rgba(19, 19, 24, 0));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.banner-section-text {
+    padding: 5% 25%;
+    text-align: center;
+    
+}
+
+.select-option {
+    width: 160px;
+    height: 52px;
+    border-radius: 8px;
+    margin-left: 2%;
+}
+
+.where-go {
+    width: 160px;
+    height: 46px;
+    border-radius: 8px;
+    padding-left: 14px;
+}
+
+.find-now-option {
+    border-radius: 8px;
+    margin-left: 20%;
+    width: 719px;
+    height: 53px;
+    background: rgba(228, 239, 255, 0.3);
+    padding: 15px;
+}
+
+.find-now-option button {
+    background: #FF5400;
+    color: aliceblue;
+}
+
+.find-now-btn {
+    margin-left: 5px;
+}
+/* End banner Section */
+
+/* popular Section */
+.popular-section {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 5%;
+    margin: 7% 6% 0 6%;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.popular-section h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.popular-section button {
+    background: #FF5400;
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 36px;
+}
+
+.popular-img {
+    position: absolute;
+    width: 540px;
+    height: 550px;
+    right: 5%;
+}
+
+/* end popular Section */
 
 
 
 
 
 
+/* responsive for phone */
+@media only screen and (max-width:600px) {
+    body{
+        padding: 0px;
+        margin-left: 50px;
+    }
+    /* header */
+    nav span{
+        display:block;
+    }
+    nav li{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    /* banner Section */
+    .title-banner-section {
+        font-size: 30px;
+    }
+
+    .find-now-option {
+        width: 170px;
+        height: 140px;
+        margin-left: 32%;
+    }
+
+    .select-option {
+        height: 30px;
+        width: 175px;
+        margin-bottom: 5px;
+    }
+
+    .find-now-option-input-size {
+        height: 30px;
+        margin-bottom: 5px;
+    }
+/* end banner Section */
+/* popular Section  */
+
+.popular-section {
+    display: block;
+}
+
+.popular-img {
+    margin-top: 30px;
+}
+/* end popular Section */
+}
