@@ -20,7 +20,7 @@ p{
     color: rgba(19, 19, 24, 0.70);
 }
 h1{
-    font-size: 58px;
+    font-size: 39px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -408,14 +408,14 @@ nav li{
 .subscribe-img-discount-text {
     background-color: #FF5400;
     text-align: center;
-    width: 46%;
-    height: 26%;
-    border-radius: 14px;
+    width: 48%;
+    height: 32%;
+    border-radius: 10px;
     color: white;
-    padding-top: 2px;
+    padding-top: 5px;
     position: relative;
-    top: 57%;
-    left: 52%;
+    top: 40%;
+    left: 48%;
     transform: rotate(-27deg);
 
 }
@@ -501,6 +501,7 @@ hr {
     padding: 14px 7%;
     height: 270px;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .world-service {
@@ -580,7 +581,7 @@ hr {
 
 /* footer */
 .footer {
-    margin: 0 0 0 0;
+    margin-top: 482px;
 }
 /* end footer */
 
@@ -591,7 +592,7 @@ hr {
   }
 
   .destination_container h3 {
-    font-size: 1.25rem;
+    font-size: 40px;
   }
 
   .destination_container p {
@@ -630,6 +631,16 @@ hr {
     margin-top: 3%;
     margin-bottom: 3%;
     display: block;
+}
+.subscribe-img-discount-text {
+    
+    width: 48%;
+    height: 37%;
+    border-radius: 10px;
+    top: 53%;
+    left: 48%;
+
+
 }
 /* end subscribe */
 
