@@ -193,7 +193,7 @@ nav li{
 }
 
 .popular-img {
-    width: 400px;
+    width:100%;
     height: 300px;
 }
 
@@ -396,6 +396,78 @@ nav li{
   }
   /* end Choose Your Destination  */
 
+/* subscribe */
+  .subscribe-img {
+    background-image: url(./Images/subscribe.png);
+    width: 672px;
+    height: 422px;
+
+
+}
+
+.subscribe-img-discount-text {
+    background-color: #FF5400;
+    text-align: center;
+    width: 46%;
+    height: 26%;
+    border-radius: 14px;
+    color: white;
+    padding-top: 2px;
+    position: relative;
+    top: 57%;
+    left: 52%;
+    transform: rotate(-27deg);
+
+}
+
+.subscribe {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 432px;
+    margin: 5% 6%;
+    gap: 5%;
+}
+
+.newsletter-form {
+    height: 91%;
+    width: 95%;
+    padding: 15px 30px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.newsletter-form-text {
+    padding-bottom: 15px;
+}
+.newsletter-form-text h1{
+    text-align: center;
+    color: #000000;
+}
+hr {
+    margin: 20px 0;
+}
+
+.input-feild {
+    height: 52px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.subscribe-btn {
+    font-size: 24px;
+    font-weight: 600;
+    height: 58px;
+    margin-top: 20px;
+    width: 102%;
+    background-color: #FF5400;
+    color: wheat;
+    border-radius: 8px;
+}
+
+
+/* subscribe */
+
 /* responsive for phone */
 @media only screen and (max-width:600px) {
     body{
@@ -440,13 +512,14 @@ nav li{
 
 .popular-section {
     display: block;
+    margin-bottom: 120px;
 }
 
 .popular-img {
     height: 250px;
     width: 550px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
 /* end popular Section */
 
@@ -488,4 +561,18 @@ nav li{
       "gallery_img_7";
   }
 /* End Your Destination */
+
+/* subscribe */
+.subscribe-img {
+    margin: 5% 3%;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.subscribe {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+/* end subscribe */
 }
